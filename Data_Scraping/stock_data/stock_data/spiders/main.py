@@ -14,7 +14,7 @@ from datetime import date
 class stockPrices(scrapy.Spider):
     name = 'stock_prices'
 
-    start_urls = ['https://finance.yahoo.com/quote/AAPL?p=AAPL'] #url_list
+    start_urls = ['https://finance.yahoo.com/quote/GOOG?p=GOOG' , 'https://finance.yahoo.com/quote/TSLA?p=TSLA' , 'https://finance.yahoo.com/quote/META?p=META'] #url_list
 
 
 

@@ -1,10 +1,11 @@
 import boto3
 import configparser
 import psycopg2
-import configparser
+import os
+
 
 parser = configparser.ConfigParser()
-parser.read("credentials.conf")
+parser.read("../credentials.conf")
 db_name = parser.get("aws_rds_credentials", "rds_db_name")
 username = parser.get("aws_rds_credentials", "rds_username")
 password = parser.get("aws_rds_credentials", "rds_password")
@@ -14,6 +15,7 @@ port = parser.get("aws_rds_credentials", "rds_port")
 access_key  = parser.get("aws_boto_credentials", "access_key")
 secret_key = parser.get("aws_boto_credentials", "secret_key")
 region = parser.get("aws_boto_credentials", "aws_region")
+bucket = parser.get("aws_boto_credentials", "bucket_name")
 
 
 
@@ -31,26 +33,31 @@ rds_conn = psycopg2.connect(
     password=password
 )
 
-# # List objects in the S3 bucket
-# response = s3_client.list_objects_v2(Bucket=S3_BUCKET_NAME)
+# List objects in the S3 bucket
+response = s3_client.list_objects_v2(Bucket=bucket)
 
-# # Get the most recent file in the S3 bucket
-# most_recent_file = max(response['Contents'], key=lambda x: x['LastModified'])
-# most_recent_file_key = most_recent_file['Key']
+# Get the most recent file in the S3 bucket
+most_recent_file = max(response['Contents'], key=lambda x: x['LastModified'])
+most_recent_file_key = most_recent_file['Key']
 
-# # Download the most recent file from S3
-# file_path = '/tmp/' + os.path.basename(most_recent_file_key)
-# s3_client.download_file(S3_BUCKET_NAME, most_recent_file_key, file_path)
+# Download the most recent file from S3
+file_path =  os.path.basename(most_recent_file_key)
 
-# # Load the file into the PostgreSQL database
-# with open(file_path, 'r') as file:
-#     cursor = rds_conn.cursor()
-#     cursor.copy_from(file, 'your_table_name', sep=',')  # Assuming a CSV file with comma-separated values
-#     rds_conn.commit()
-#     cursor.close()
+print(most_recent_file)
+print(most_recent_file_key)
+print(file_path)
+s3_client.download_file(bucket, most_recent_file_key, file_path)
 
-# # Clean up - Delete the downloaded file
-# os.remove(file_path)
+# Load the file into the PostgreSQL database
+with open(file_path, 'r') as file:
+    next(file)
+    cursor = rds_conn.cursor()
+    cursor.copy_from(file, 'test', sep=',' ,columns=('date' , 'ticker' , 'open_price' ,'close_price' , 'volume' , 'previous_close' , 'intraday_low' , 'intraday_high','bid_price', 'ask_price'))  # Assuming a CSV file with comma-separated values
+    rds_conn.commit()
+    cursor.close()
 
-# # Close the RDS connection
-# rds_conn.close()
+# Clean up - Delete the downloaded file
+os.remove(file_path)
+
+# Close the RDS connection
+rds_conn.close()
