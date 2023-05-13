@@ -5,7 +5,7 @@ import os
 
 
 parser = configparser.ConfigParser()
-parser.read("../credentials.conf")
+parser.read("/mnt/c/Users/Patrick/documents/projects/sp500-stockPrice-pipeline/credentials.conf")
 db_name = parser.get("aws_rds_credentials", "rds_db_name")
 username = parser.get("aws_rds_credentials", "rds_username")
 password = parser.get("aws_rds_credentials", "rds_password")
