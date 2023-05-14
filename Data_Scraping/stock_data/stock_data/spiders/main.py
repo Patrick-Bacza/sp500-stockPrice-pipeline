@@ -2,6 +2,9 @@ import scrapy
 import pandas as pd
 import csv
 from datetime import date
+import boto3
+import csv
+import configparser
 
 
 # df = pd.read_csv('/Data/company_info.csv' , usecols=['Ticker'])
@@ -47,5 +50,7 @@ class stockPrices(scrapy.Spider):
             "Bid": bidPrice,
             "Ask": askPrice
         }
+
+
         
        
