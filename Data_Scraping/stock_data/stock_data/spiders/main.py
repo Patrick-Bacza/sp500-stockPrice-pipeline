@@ -2,9 +2,8 @@ import scrapy
 import pandas as pd
 import csv
 from datetime import date
-import boto3
-import csv
-import configparser
+
+
 
 
 # df = pd.read_csv('/Data/company_info.csv' , usecols=['Ticker'])
@@ -17,7 +16,7 @@ import configparser
 class stockPrices(scrapy.Spider):
     name = 'stock_prices'
 
-    start_urls = ['https://finance.yahoo.com/quote/GOOG?p=GOOG' , 'https://finance.yahoo.com/quote/TSLA?p=TSLA' , 'https://finance.yahoo.com/quote/META?p=META'] #url_list
+    start_urls = ['https://finance.yahoo.com/quote/ADM?p=ADM' , 'https://finance.yahoo.com/quote/ALB?p=ALB' ,'https://finance.yahoo.com/quote/BF-B?p=BF-', 'https://finance.yahoo.com/quote/BRK-B?p=BRK-B' ] #url_list
 
 
 
