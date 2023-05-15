@@ -1,504 +1,504 @@
-Ticker,Company,Sector_Id,Industry_Id
-MMM,3M,S001,I001
-AOS,A. O. Smith,S001,I002
-ABT,Abbott,S002,I003
-ABBV,AbbVie,S002,I004
-ACN,Accenture,S003,I005
-ATVI,Activision Blizzard,S004,I006
-ADM,ADM,S005,I007
-ADBE,Adobe Inc.,S003,I008
-ADP,ADP,S001,I009
-AAP,Advance Auto Parts,S006,I010
-AES,AES Corporation,S007,I011
-AFL,Aflac,S008,I012
-A,Agilent Technologies,S002,I003
-APD,Air Products and Chemicals,S009,I014
-AKAM,Akamai,S003,I015
-ALK,Alaska Air Group,S001,I016
-ALB,Albemarle Corporation,S009,I017
-ARE,Alexandria Real Estate Equities,S010,I018
-ALGN,Align Technology,S002,I019
-ALLE,Allegion,S001,I002
-LNT,Alliant Energy,S007,I021
-ALL,Allstate,S008,I022
-GOOGL,Alphabet Inc. (Class A),S004,I023
-GOOG,Alphabet Inc. (Class C),S004,I023
-MO,Altria,S005,I025
-AMZN,Amazon,S006,I026
-AMCR,Amcor,S009,I027
-AMD,AMD,S003,I028
-AEE,Ameren,S007,I029
-AAL,American Airlines Group,S001,I016
-AEP,American Electric Power,S007,I021
-AXP,American Express,S008,I032
-AIG,American International Group,S008,I022
-AMT,American Tower,S010,I034
-AWK,American Water Works,S007,I035
-AMP,Ameriprise Financial,S008,I036
-ABC,AmerisourceBergen,S002,I037
-AME,Ametek,S001,I038
-AMGN,Amgen,S002,I039
-APH,Amphenol,S003,I040
-ADI,Analog Devices,S003,I028
-ANSS,Ansys,S003,I008
-AON,Aon,S008,I043
-APA,APA Corporation,S011,I044
-AAPL,Apple Inc.,S003,I045
-AMAT,Applied Materials,S003,I046
-APTV,Aptiv,S006,I047
-ACGL,Arch Capital Group,S008,I048
-ANET,Arista Networks,S003,I049
-AJG,Arthur J. Gallagher & Co.,S008,I043
-AIZ,Assurant,S008,I051
-T,AT&T,S004,I052
-ATO,Atmos Energy,S007,I053
-ADSK,Autodesk,S003,I008
-AZO,AutoZone,S006,I055
-AVB,AvalonBay Communities,S010,I056
-AVY,Avery Dennison,S009,I027
-AXON,Axon Enterprise,S001,I058
-BKR,Baker Hughes,S011,I059
-BALL,Ball Corporation,S009,I060
-BAC,Bank of America,S008,I061
-BBWI,"Bath & Body Works, Inc.",S006,I055
-BAX,Baxter International,S002,I003
-BDX,Becton Dickinson,S002,I003
-WRB,Berkley,S008,I022
-BRK.B,Berkshire Hathaway,S008,I066
-BBY,Best Buy,S006,I067
-BIO,Bio-Rad,S002,I068
-TECH,Bio-Techne,S002,I068
-BIIB,Biogen,S002,I039
-BLK,BlackRock,S008,I036
-BK,BNY Mellon,S008,I036
-BA,Boeing,S001,I058
-BKNG,Booking Holdings,S006,I026
-BWA,BorgWarner,S006,I047
-BXP,Boston Properties,S010,I018
-BSX,Boston Scientific,S002,I003
-BMY,Bristol Myers Squibb,S002,I004
-AVGO,Broadcom Inc.,S003,I028
-BR,Broadridge Financial Solutions,S001,I080
-BRO,Brown & Brown,S008,I043
-BF.B,Brown–Forman,S005,I082
-BG,Bunge Limited,S005,I007
-CHRW,C.H. Robinson,S001,I084
-CDNS,Cadence Design Systems,S003,I008
-CZR,Caesars Entertainment,S006,I086
-CPT,Camden Property Trust,S010,I056
-CPB,Campbell Soup Company,S005,I088
-COF,Capital One,S008,I032
-CAH,Cardinal Health,S002,I037
-KMX,CarMax,S006,I010
-CCL,Carnival,S006,I092
-CARR,Carrier Global,S001,I002
-CTLT,Catalent,S002,I004
-CAT,Caterpillar Inc.,S001,I095
-CBOE,Cboe Global Markets,S008,I096
-CBRE,CBRE Group,S010,I097
-CDW,CDW,S003,I098
-CE,Celanese,S009,I017
-CNC,Centene Corporation,S002,I100
-CNP,CenterPoint Energy,S007,I029
-CDAY,Ceridian,S003,I008
-CF,CF Industries,S009,I103
-CRL,Charles River Laboratories,S002,I068
-SCHW,Charles Schwab Corporation,S008,I105
-CHTR,Charter Communications,S004,I106
-CVX,Chevron Corporation,S011,I107
-CMG,Chipotle Mexican Grill,S006,I108
-CB,Chubb Limited,S008,I022
-CHD,Church & Dwight,S005,I110
-CI,Cigna,S002,I100
-CINF,Cincinnati Financial,S008,I022
-CTAS,Cintas,S001,I113
-CSCO,Cisco,S003,I049
-C,Citigroup,S008,I061
-CFG,Citizens Financial Group,S008,I116
-CLX,Clorox,S005,I110
-CME,CME Group,S008,I096
-CMS,CMS Energy,S007,I029
-KO,Coca-Cola Company (The),S005,I120
-CTSH,Cognizant,S003,I005
-CL,Colgate-Palmolive,S005,I110
-CMCSA,Comcast,S004,I106
-CMA,Comerica,S008,I061
-CAG,Conagra Brands,S005,I088
-COP,ConocoPhillips,S011,I044
-ED,Consolidated Edison,S007,I021
-STZ,Constellation Brands,S005,I082
-CEG,Constellation Energy,S007,I029
-COO,CooperCompanies,S002,I019
-CPRT,Copart,S001,I113
-GLW,Corning Inc.,S003,I040
-CTVA,Corteva,S009,I103
-CSGP,CoStar Group,S001,I134
-COST,Costco,S005,I135
-CTRA,Coterra,S011,I044
-CCI,Crown Castle,S010,I034
-CSX,CSX,S001,I138
-CMI,Cummins,S001,I139
-CVS,CVS Health,S002,I140
-DHI,D.R. Horton,S006,I141
-DHR,Danaher Corporation,S002,I003
-DRI,Darden Restaurants,S006,I108
-DVA,DaVita Inc.,S002,I144
-DE,John Deere,S001,I145
-DAL,Delta Air Lines,S001,I016
-XRAY,Dentsply Sirona,S002,I019
-DVN,Devon Energy,S011,I044
-DXCM,Dexcom,S002,I003
-FANG,Diamondback Energy,S011,I044
-DLR,Digital Realty,S010,I151
-DFS,Discover Financial,S008,I032
-DISH,Dish Network,S004,I106
-DIS,Disney,S004,I154
-DG,Dollar General,S005,I135
-DLTR,Dollar Tree,S005,I135
-D,Dominion Energy,S007,I021
-DPZ,Domino's,S006,I108
-DOV,Dover Corporation,S001,I139
-DOW,Dow Inc.,S009,I160
-DTE,DTE Energy,S007,I029
-DUK,Duke Energy,S007,I021
-DD,DuPont,S009,I017
-DXC,DXC Technology,S003,I005
-EMN,Eastman Chemical Company,S009,I165
-ETN,Eaton Corporation,S001,I038
-EBAY,eBay,S006,I026
-ECL,Ecolab,S009,I017
-EIX,Edison International,S007,I021
-EW,Edwards Lifesciences,S002,I003
-EA,Electronic Arts,S004,I006
-ELV,Elevance Health,S002,I100
-LLY,Eli Lilly and Company,S002,I004
-EMR,Emerson Electric,S001,I038
-ENPH,Enphase,S003,I040
-ETR,Entergy,S007,I021
-EOG,EOG Resources,S011,I044
-EPAM,EPAM Systems,S003,I005
-EQT,EQT,S011,I044
-EFX,Equifax,S001,I134
-EQIX,Equinix,S010,I151
-EQR,Equity Residential,S010,I056
-ESS,Essex Property Trust,S010,I056
-EL,Estée Lauder Companies (The),S005,I184
-ETSY,Etsy,S006,I026
-RE,Everest Re,S008,I048
-EVRG,Evergy,S007,I021
-ES,Eversource,S007,I029
-EXC,Exelon,S007,I029
-EXPE,Expedia Group,S006,I026
-EXPD,Expeditors International,S001,I084
-EXR,Extra Space Storage,S010,I192
-XOM,ExxonMobil,S011,I107
-FFIV,"F5, Inc.",S003,I049
-FDS,FactSet,S008,I096
-FICO,Fair Isaac,S003,I008
-FAST,Fastenal,S001,I002
-FRT,Federal Realty,S010,I198
-FDX,FedEx,S001,I084
-FITB,Fifth Third Bank,S008,I116
-FSLR,First Solar,S003,I028
-FE,FirstEnergy,S007,I021
-FIS,FIS,S008,I203
-FISV,Fiserv,S008,I203
-FLT,Fleetcor,S008,I203
-FMC,FMC Corporation,S009,I103
-F,Ford Motor Company,S006,I207
-FTNT,Fortinet,S003,I208
-FTV,Fortive,S001,I139
-FOXA,Fox Corporation (Class A),S004,I154
-FOX,Fox Corporation (Class B),S004,I154
-BEN,Franklin Templeton,S008,I036
-FCX,Freeport-McMoRan,S009,I213
-GRMN,Garmin,S006,I214
-IT,Gartner,S003,I005
-GEHC,GE HealthCare,S002,I216
-GEN,Gen Digital,S003,I008
-GNRC,Generac,S001,I038
-GD,General Dynamics,S001,I058
-GE,General Electric,S001,I001
-GIS,General Mills,S005,I088
-GM,General Motors,S006,I207
-GPC,Genuine Parts Company,S006,I055
-GILD,Gilead Sciences,S002,I039
-GL,Globe Life,S008,I012
-GPN,Global Payments,S008,I203
-GS,Goldman Sachs,S008,I105
-HAL,Halliburton,S011,I059
-HIG,Hartford (The),S008,I022
-HAS,Hasbro,S006,I230
-HCA,HCA Healthcare,S002,I144
-PEAK,Healthpeak,S010,I232
-HSIC,Henry Schein,S002,I037
-HSY,Hershey's,S005,I088
-HES,Hess Corporation,S011,I107
-HPE,Hewlett Packard Enterprise,S003,I045
-HLT,Hilton Worldwide,S006,I092
-HOLX,Hologic,S002,I003
-HD,Home Depot (The),S006,I239
-HON,Honeywell,S001,I001
-HRL,Hormel Foods,S005,I088
-HST,Host Hotels & Resorts,S010,I242
-HWM,Howmet Aerospace,S001,I058
-HPQ,HP Inc.,S003,I045
-HUM,Humana,S002,I100
-HBAN,Huntington Bancshares,S008,I116
-HII,Huntington Ingalls Industries,S001,I058
-IBM,IBM,S003,I005
-IEX,IDEX Corporation,S001,I139
-IDXX,Idexx Laboratories,S002,I003
-ITW,Illinois Tool Works,S001,I139
-ILMN,Illumina,S002,I068
-INCY,Incyte,S002,I039
-IR,Ingersoll Rand,S001,I139
-PODD,Insulet,S002,I003
-INTC,Intel,S003,I028
-ICE,Intercontinental Exchange,S008,I096
-IFF,International Flavors & Fragrances,S009,I017
-IP,International Paper,S009,I027
-IPG,Interpublic Group of Companies (The),S004,I260
-INTU,Intuit,S003,I008
-ISRG,Intuitive Surgical,S002,I003
-IVZ,Invesco,S008,I036
-INVH,Invitation Homes,S010,I056
-IQV,IQVIA,S002,I068
-IRM,Iron Mountain,S010,I266
-JBHT,J.B. Hunt,S001,I267
-JKHY,Jack Henry & Associates,S008,I203
-J,Jacobs Solutions,S001,I269
-JNJ,Johnson & Johnson,S002,I004
-JCI,Johnson Controls,S001,I002
-JPM,JPMorgan Chase,S008,I061
-JNPR,Juniper Networks,S003,I049
-K,Kellogg's,S005,I088
-KDP,Keurig Dr Pepper,S005,I120
-KEY,KeyCorp,S008,I116
-KEYS,Keysight,S003,I277
-KMB,Kimberly-Clark,S005,I110
-KIM,Kimco Realty,S010,I198
-KMI,Kinder Morgan,S011,I280
-KLAC,KLA Corporation,S003,I046
-KHC,Kraft Heinz,S005,I088
-KR,Kroger,S005,I283
-LHX,L3Harris,S001,I058
-LH,LabCorp,S002,I140
-LRCX,Lam Research,S003,I046
-LW,Lamb Weston,S005,I088
-LVS,Las Vegas Sands,S006,I086
-LDOS,Leidos,S001,I113
-LEN,Lennar,S006,I141
-LNC,Lincoln Financial,S008,I051
-LIN,Linde plc,S009,I014
-LYV,Live Nation Entertainment,S004,I154
-LKQ,LKQ Corporation,S006,I294
-LMT,Lockheed Martin,S001,I058
-L,Loews Corporation,S008,I051
-LOW,Lowe's,S006,I239
-LYB,LyondellBasell,S009,I017
-MTB,M&T Bank,S008,I116
-MRO,Marathon Oil,S011,I044
-MPC,Marathon Petroleum,S011,I301
-MKTX,MarketAxess,S008,I096
-MAR,Marriott International,S006,I092
-MMC,Marsh McLennan,S008,I043
-MLM,Martin Marietta Materials,S009,I305
-MAS,Masco,S001,I002
-MA,Mastercard,S008,I203
-MTCH,Match Group,S004,I023
-MKC,McCormick & Company,S005,I088
-MCD,McDonald's,S006,I108
-MCK,McKesson,S002,I037
-MDT,Medtronic,S002,I003
-MRK,Merck & Co.,S002,I004
-META,Meta Platforms,S004,I023
-MET,MetLife,S008,I012
-MTD,Mettler Toledo,S002,I068
-MGM,MGM Resorts,S006,I086
-MCHP,Microchip Technology,S003,I028
-MU,Micron Technology,S003,I028
-MSFT,Microsoft,S003,I208
-MAA,Mid-America Apartment Communities,S010,I056
-MRNA,Moderna,S002,I039
-MHK,Mohawk Industries,S006,I323
-MOH,Molina Healthcare,S002,I100
-TAP,Molson Coors Beverage Company,S005,I325
-MDLZ,Mondelez International,S005,I088
-MPWR,Monolithic Power Systems,S003,I028
-MNST,Monster Beverage,S005,I120
-MCO,Moody's Corporation,S008,I096
-MS,Morgan Stanley,S008,I105
-MOS,Mosaic Company (The),S009,I103
-MSI,Motorola Solutions,S003,I049
-MSCI,MSCI,S008,I096
-NDAQ,"Nasdaq, Inc.",S008,I096
-NTAP,NetApp,S003,I045
-NFLX,Netflix,S004,I154
-NWL,Newell Brands,S006,I337
-NEM,Newmont,S009,I338
-NWSA,News Corp (Class A),S004,I339
-NWS,News Corp (Class B),S004,I339
-NEE,NextEra Energy,S007,I029
-NKE,"Nike, Inc.",S006,I342
-NI,NiSource,S007,I029
-NDSN,Nordson Corporation,S001,I139
-NSC,Norfolk Southern Railway,S001,I138
-NTRS,Northern Trust,S008,I036
-NOC,Northrop Grumman,S001,I058
-NCLH,Norwegian Cruise Line Holdings,S006,I092
-NRG,NRG Energy,S007,I011
-NUE,Nucor,S009,I350
-NVDA,Nvidia,S003,I028
-NVR,"NVR, Inc.",S006,I141
-NXPI,NXP Semiconductors,S003,I028
-ORLY,O'Reilly Auto Parts,S006,I055
-OXY,Occidental Petroleum,S011,I044
-ODFL,Old Dominion,S001,I267
-OMC,Omnicom Group,S004,I260
-ON,ON Semiconductor,S003,I028
-OKE,ONEOK,S011,I280
-ORCL,Oracle Corporation,S003,I008
-OGN,Organon & Co.,S002,I004
-OTIS,Otis Worldwide,S001,I139
-PCAR,Paccar,S001,I095
-PKG,Packaging Corporation of America,S009,I027
-PARA,Paramount Global,S004,I154
-PH,Parker Hannifin,S001,I139
-PAYX,Paychex,S001,I009
-PAYC,Paycom,S003,I008
-PYPL,PayPal,S008,I203
-PNR,Pentair,S001,I139
-PEP,PepsiCo,S005,I120
-PKI,PerkinElmer,S002,I003
-PFE,Pfizer,S002,I004
-PCG,PG&E Corporation,S007,I029
-PM,Philip Morris International,S005,I025
-PSX,Phillips 66,S011,I301
-PNW,Pinnacle West,S007,I029
-PXD,Pioneer Natural Resources,S011,I044
-PNC,PNC Financial Services,S008,I116
-POOL,Pool Corporation,S006,I294
-PPG,PPG Industries,S009,I017
-PPL,PPL Corporation,S007,I021
-PFG,Principal Financial Group,S008,I012
-PG,Procter & Gamble,S005,I184
-PGR,Progressive Corporation,S008,I022
-PLD,Prologis,S010,I386
-PRU,Prudential Financial,S008,I012
-PEG,Public Service Enterprise Group,S007,I021
-PTC,PTC,S003,I008
-PSA,Public Storage,S010,I192
-PHM,PulteGroup,S006,I141
-QRVO,Qorvo,S003,I028
-PWR,Quanta Services,S001,I269
-QCOM,Qualcomm,S003,I028
-DGX,Quest Diagnostics,S002,I140
-RL,Ralph Lauren Corporation,S006,I342
-RJF,Raymond James,S008,I105
-RTX,Raytheon Technologies,S001,I058
-O,Realty Income,S010,I198
-REG,Regency Centers,S010,I198
-REGN,Regeneron,S002,I039
-RF,Regions Financial Corporation,S008,I116
-RSG,Republic Services,S001,I403
-RMD,ResMed,S002,I003
-RHI,Robert Half,S001,I009
-ROK,Rockwell Automation,S001,I038
-ROL,"Rollins, Inc.",S001,I403
-ROP,Roper Technologies,S003,I277
-ROST,Ross Stores,S006,I409
-RCL,Royal Caribbean Group,S006,I092
-SPGI,S&P Global,S008,I096
-CRM,Salesforce,S003,I008
-SBAC,SBA Communications,S010,I034
-SLB,Schlumberger,S011,I059
-STX,Seagate Technology,S003,I045
-SEE,Sealed Air,S009,I027
-SRE,Sempra Energy,S007,I029
-NOW,ServiceNow,S003,I208
-SHW,Sherwin-Williams,S009,I017
-SPG,Simon Property Group,S010,I198
-SWKS,Skyworks Solutions,S003,I028
-SJM,J.M. Smucker Company (The),S005,I088
-SNA,Snap-on,S001,I139
-SEDG,SolarEdge,S003,I046
-SO,Southern Company,S007,I021
-LUV,Southwest Airlines,S001,I016
-SWK,Stanley Black & Decker,S001,I139
-SBUX,Starbucks,S006,I108
-STT,State Street Corporation,S008,I036
-STLD,Steel Dynamics,S009,I350
-STE,Steris,S002,I003
-SYK,Stryker Corporation,S002,I003
-SYF,Synchrony Financial,S008,I032
-SNPS,Synopsys,S003,I008
-SYY,Sysco,S005,I435
-TMUS,T-Mobile US,S004,I436
-TROW,T. Rowe Price,S008,I036
-TTWO,Take-Two Interactive,S004,I006
-TPR,"Tapestry, Inc.",S006,I342
-TRGP,Targa Resources,S011,I280
-TGT,Target Corporation,S005,I135
-TEL,TE Connectivity,S003,I442
-TDY,Teledyne Technologies,S003,I277
-TFX,Teleflex,S002,I003
-TER,Teradyne,S003,I046
-TSLA,"Tesla, Inc.",S006,I207
-TXN,Texas Instruments,S003,I028
-TXT,Textron,S001,I058
-TMO,Thermo Fisher Scientific,S002,I068
-TJX,TJX Companies,S006,I409
-TSCO,Tractor Supply,S006,I055
-TT,Trane Technologies,S001,I002
-TDG,TransDigm Group,S001,I058
-TRV,Travelers Companies (The),S008,I022
-TRMB,Trimble Inc.,S003,I277
-TFC,Truist,S008,I116
-TYL,Tyler Technologies,S003,I008
-TSN,Tyson Foods,S005,I088
-USB,U.S. Bank,S008,I061
-UDR,"UDR, Inc.",S010,I056
-ULTA,Ulta Beauty,S006,I055
-UNP,Union Pacific Corporation,S001,I138
-UAL,United Airlines Holdings,S001,I016
-UPS,United Parcel Service,S001,I084
-URI,United Rentals,S001,I465
-UNH,UnitedHealth Group,S002,I100
-UHS,Universal Health Services,S002,I144
-VLO,Valero Energy,S011,I301
-VTR,Ventas,S010,I232
-VRSN,Verisign,S003,I015
-VRSK,Verisk,S001,I134
-VZ,Verizon,S004,I052
-VRTX,Vertex Pharmaceuticals,S002,I039
-VFC,VF Corporation,S006,I342
-VTRS,Viatris,S002,I004
-VICI,Vici Properties,S010,I242
-V,Visa Inc.,S008,I203
-VMC,Vulcan Materials Company,S009,I305
-WAB,Wabtec,S001,I095
-WBA,Walgreens Boots Alliance,S005,I480
-WMT,Walmart,S005,I135
-WBD,Warner Bros. Discovery,S004,I482
-WM,Waste Management,S001,I403
-WAT,Waters Corporation,S002,I037
-WEC,WEC Energy Group,S007,I021
-WFC,Wells Fargo,S008,I061
-WELL,Welltower,S010,I232
-WST,West Pharmaceutical Services,S002,I019
-WDC,Western Digital,S003,I045
-WRK,WestRock,S009,I027
-WY,Weyerhaeuser,S010,I491
-WHR,Whirlpool Corporation,S006,I492
-WMB,Williams Companies,S011,I280
-WTW,Willis Towers Watson,S008,I043
-GWW,W. W. Grainger,S001,I139
-WYNN,Wynn Resorts,S006,I086
-XEL,Xcel Energy,S007,I029
-XYL,Xylem Inc.,S001,I139
-YUM,Yum! Brands,S006,I108
-ZBRA,Zebra Technologies,S003,I277
-ZBH,Zimmer Biomet,S002,I003
-ZION,Zions Bancorporation,S008,I116
-ZTS,Zoetis,S002,I004
+Ticker,Company,Sector_Id
+MMM,3M,S001
+AOS,A. O. Smith,S001
+ABT,Abbott,S002
+ABBV,AbbVie,S002
+ACN,Accenture,S003
+ATVI,Activision Blizzard,S004
+ADM,ADM,S005
+ADBE,Adobe Inc.,S003
+ADP,ADP,S001
+AAP,Advance Auto Parts,S006
+AES,AES Corporation,S007
+AFL,Aflac,S008
+A,Agilent Technologies,S002
+APD,Air Products and Chemicals,S009
+AKAM,Akamai,S003
+ALK,Alaska Air Group,S001
+ALB,Albemarle Corporation,S009
+ARE,Alexandria Real Estate Equities,S010
+ALGN,Align Technology,S002
+ALLE,Allegion,S001
+LNT,Alliant Energy,S007
+ALL,Allstate,S008
+GOOGL,Alphabet Inc. (Class A),S004
+GOOG,Alphabet Inc. (Class C),S004
+MO,Altria,S005
+AMZN,Amazon,S006
+AMCR,Amcor,S009
+AMD,AMD,S003
+AEE,Ameren,S007
+AAL,American Airlines Group,S001
+AEP,American Electric Power,S007
+AXP,American Express,S008
+AIG,American International Group,S008
+AMT,American Tower,S010
+AWK,American Water Works,S007
+AMP,Ameriprise Financial,S008
+ABC,AmerisourceBergen,S002
+AME,Ametek,S001
+AMGN,Amgen,S002
+APH,Amphenol,S003
+ADI,Analog Devices,S003
+ANSS,Ansys,S003
+AON,Aon,S008
+APA,APA Corporation,S011
+AAPL,Apple Inc.,S003
+AMAT,Applied Materials,S003
+APTV,Aptiv,S006
+ACGL,Arch Capital Group,S008
+ANET,Arista Networks,S003
+AJG,Arthur J. Gallagher & Co.,S008
+AIZ,Assurant,S008
+T,AT&T,S004
+ATO,Atmos Energy,S007
+ADSK,Autodesk,S003
+AZO,AutoZone,S006
+AVB,AvalonBay Communities,S010
+AVY,Avery Dennison,S009
+AXON,Axon Enterprise,S001
+BKR,Baker Hughes,S011
+BALL,Ball Corporation,S009
+BAC,Bank of America,S008
+BBWI,"Bath & Body Works, Inc.",S006
+BAX,Baxter International,S002
+BDX,Becton Dickinson,S002
+WRB,Berkley,S008
+BRK.B,Berkshire Hathaway,S008
+BBY,Best Buy,S006
+BIO,Bio-Rad,S002
+TECH,Bio-Techne,S002
+BIIB,Biogen,S002
+BLK,BlackRock,S008
+BK,BNY Mellon,S008
+BA,Boeing,S001
+BKNG,Booking Holdings,S006
+BWA,BorgWarner,S006
+BXP,Boston Properties,S010
+BSX,Boston Scientific,S002
+BMY,Bristol Myers Squibb,S002
+AVGO,Broadcom Inc.,S003
+BR,Broadridge Financial Solutions,S001
+BRO,Brown & Brown,S008
+BF.B,Brown–Forman,S005
+BG,Bunge Limited,S005
+CHRW,C.H. Robinson,S001
+CDNS,Cadence Design Systems,S003
+CZR,Caesars Entertainment,S006
+CPT,Camden Property Trust,S010
+CPB,Campbell Soup Company,S005
+COF,Capital One,S008
+CAH,Cardinal Health,S002
+KMX,CarMax,S006
+CCL,Carnival,S006
+CARR,Carrier Global,S001
+CTLT,Catalent,S002
+CAT,Caterpillar Inc.,S001
+CBOE,Cboe Global Markets,S008
+CBRE,CBRE Group,S010
+CDW,CDW,S003
+CE,Celanese,S009
+CNC,Centene Corporation,S002
+CNP,CenterPoint Energy,S007
+CDAY,Ceridian,S003
+CF,CF Industries,S009
+CRL,Charles River Laboratories,S002
+SCHW,Charles Schwab Corporation,S008
+CHTR,Charter Communications,S004
+CVX,Chevron Corporation,S011
+CMG,Chipotle Mexican Grill,S006
+CB,Chubb Limited,S008
+CHD,Church & Dwight,S005
+CI,Cigna,S002
+CINF,Cincinnati Financial,S008
+CTAS,Cintas,S001
+CSCO,Cisco,S003
+C,Citigroup,S008
+CFG,Citizens Financial Group,S008
+CLX,Clorox,S005
+CME,CME Group,S008
+CMS,CMS Energy,S007
+KO,Coca-Cola Company (The),S005
+CTSH,Cognizant,S003
+CL,Colgate-Palmolive,S005
+CMCSA,Comcast,S004
+CMA,Comerica,S008
+CAG,Conagra Brands,S005
+COP,ConocoPhillips,S011
+ED,Consolidated Edison,S007
+STZ,Constellation Brands,S005
+CEG,Constellation Energy,S007
+COO,CooperCompanies,S002
+CPRT,Copart,S001
+GLW,Corning Inc.,S003
+CTVA,Corteva,S009
+CSGP,CoStar Group,S001
+COST,Costco,S005
+CTRA,Coterra,S011
+CCI,Crown Castle,S010
+CSX,CSX,S001
+CMI,Cummins,S001
+CVS,CVS Health,S002
+DHI,D.R. Horton,S006
+DHR,Danaher Corporation,S002
+DRI,Darden Restaurants,S006
+DVA,DaVita Inc.,S002
+DE,John Deere,S001
+DAL,Delta Air Lines,S001
+XRAY,Dentsply Sirona,S002
+DVN,Devon Energy,S011
+DXCM,Dexcom,S002
+FANG,Diamondback Energy,S011
+DLR,Digital Realty,S010
+DFS,Discover Financial,S008
+DISH,Dish Network,S004
+DIS,Disney,S004
+DG,Dollar General,S005
+DLTR,Dollar Tree,S005
+D,Dominion Energy,S007
+DPZ,Domino's,S006
+DOV,Dover Corporation,S001
+DOW,Dow Inc.,S009
+DTE,DTE Energy,S007
+DUK,Duke Energy,S007
+DD,DuPont,S009
+DXC,DXC Technology,S003
+EMN,Eastman Chemical Company,S009
+ETN,Eaton Corporation,S001
+EBAY,eBay,S006
+ECL,Ecolab,S009
+EIX,Edison International,S007
+EW,Edwards Lifesciences,S002
+EA,Electronic Arts,S004
+ELV,Elevance Health,S002
+LLY,Eli Lilly and Company,S002
+EMR,Emerson Electric,S001
+ENPH,Enphase,S003
+ETR,Entergy,S007
+EOG,EOG Resources,S011
+EPAM,EPAM Systems,S003
+EQT,EQT,S011
+EFX,Equifax,S001
+EQIX,Equinix,S010
+EQR,Equity Residential,S010
+ESS,Essex Property Trust,S010
+EL,Estée Lauder Companies (The),S005
+ETSY,Etsy,S006
+RE,Everest Re,S008
+EVRG,Evergy,S007
+ES,Eversource,S007
+EXC,Exelon,S007
+EXPE,Expedia Group,S006
+EXPD,Expeditors International,S001
+EXR,Extra Space Storage,S010
+XOM,ExxonMobil,S011
+FFIV,"F5, Inc.",S003
+FDS,FactSet,S008
+FICO,Fair Isaac,S003
+FAST,Fastenal,S001
+FRT,Federal Realty,S010
+FDX,FedEx,S001
+FITB,Fifth Third Bank,S008
+FSLR,First Solar,S003
+FE,FirstEnergy,S007
+FIS,FIS,S008
+FISV,Fiserv,S008
+FLT,Fleetcor,S008
+FMC,FMC Corporation,S009
+F,Ford Motor Company,S006
+FTNT,Fortinet,S003
+FTV,Fortive,S001
+FOXA,Fox Corporation (Class A),S004
+FOX,Fox Corporation (Class B),S004
+BEN,Franklin Templeton,S008
+FCX,Freeport-McMoRan,S009
+GRMN,Garmin,S006
+IT,Gartner,S003
+GEHC,GE HealthCare,S002
+GEN,Gen Digital,S003
+GNRC,Generac,S001
+GD,General Dynamics,S001
+GE,General Electric,S001
+GIS,General Mills,S005
+GM,General Motors,S006
+GPC,Genuine Parts Company,S006
+GILD,Gilead Sciences,S002
+GL,Globe Life,S008
+GPN,Global Payments,S008
+GS,Goldman Sachs,S008
+HAL,Halliburton,S011
+HIG,Hartford (The),S008
+HAS,Hasbro,S006
+HCA,HCA Healthcare,S002
+PEAK,Healthpeak,S010
+HSIC,Henry Schein,S002
+HSY,Hershey's,S005
+HES,Hess Corporation,S011
+HPE,Hewlett Packard Enterprise,S003
+HLT,Hilton Worldwide,S006
+HOLX,Hologic,S002
+HD,Home Depot (The),S006
+HON,Honeywell,S001
+HRL,Hormel Foods,S005
+HST,Host Hotels & Resorts,S010
+HWM,Howmet Aerospace,S001
+HPQ,HP Inc.,S003
+HUM,Humana,S002
+HBAN,Huntington Bancshares,S008
+HII,Huntington Ingalls Industries,S001
+IBM,IBM,S003
+IEX,IDEX Corporation,S001
+IDXX,Idexx Laboratories,S002
+ITW,Illinois Tool Works,S001
+ILMN,Illumina,S002
+INCY,Incyte,S002
+IR,Ingersoll Rand,S001
+PODD,Insulet,S002
+INTC,Intel,S003
+ICE,Intercontinental Exchange,S008
+IFF,International Flavors & Fragrances,S009
+IP,International Paper,S009
+IPG,Interpublic Group of Companies (The),S004
+INTU,Intuit,S003
+ISRG,Intuitive Surgical,S002
+IVZ,Invesco,S008
+INVH,Invitation Homes,S010
+IQV,IQVIA,S002
+IRM,Iron Mountain,S010
+JBHT,J.B. Hunt,S001
+JKHY,Jack Henry & Associates,S008
+J,Jacobs Solutions,S001
+JNJ,Johnson & Johnson,S002
+JCI,Johnson Controls,S001
+JPM,JPMorgan Chase,S008
+JNPR,Juniper Networks,S003
+K,Kellogg's,S005
+KDP,Keurig Dr Pepper,S005
+KEY,KeyCorp,S008
+KEYS,Keysight,S003
+KMB,Kimberly-Clark,S005
+KIM,Kimco Realty,S010
+KMI,Kinder Morgan,S011
+KLAC,KLA Corporation,S003
+KHC,Kraft Heinz,S005
+KR,Kroger,S005
+LHX,L3Harris,S001
+LH,LabCorp,S002
+LRCX,Lam Research,S003
+LW,Lamb Weston,S005
+LVS,Las Vegas Sands,S006
+LDOS,Leidos,S001
+LEN,Lennar,S006
+LNC,Lincoln Financial,S008
+LIN,Linde plc,S009
+LYV,Live Nation Entertainment,S004
+LKQ,LKQ Corporation,S006
+LMT,Lockheed Martin,S001
+L,Loews Corporation,S008
+LOW,Lowe's,S006
+LYB,LyondellBasell,S009
+MTB,M&T Bank,S008
+MRO,Marathon Oil,S011
+MPC,Marathon Petroleum,S011
+MKTX,MarketAxess,S008
+MAR,Marriott International,S006
+MMC,Marsh McLennan,S008
+MLM,Martin Marietta Materials,S009
+MAS,Masco,S001
+MA,Mastercard,S008
+MTCH,Match Group,S004
+MKC,McCormick & Company,S005
+MCD,McDonald's,S006
+MCK,McKesson,S002
+MDT,Medtronic,S002
+MRK,Merck & Co.,S002
+META,Meta Platforms,S004
+MET,MetLife,S008
+MTD,Mettler Toledo,S002
+MGM,MGM Resorts,S006
+MCHP,Microchip Technology,S003
+MU,Micron Technology,S003
+MSFT,Microsoft,S003
+MAA,Mid-America Apartment Communities,S010
+MRNA,Moderna,S002
+MHK,Mohawk Industries,S006
+MOH,Molina Healthcare,S002
+TAP,Molson Coors Beverage Company,S005
+MDLZ,Mondelez International,S005
+MPWR,Monolithic Power Systems,S003
+MNST,Monster Beverage,S005
+MCO,Moody's Corporation,S008
+MS,Morgan Stanley,S008
+MOS,Mosaic Company (The),S009
+MSI,Motorola Solutions,S003
+MSCI,MSCI,S008
+NDAQ,"Nasdaq, Inc.",S008
+NTAP,NetApp,S003
+NFLX,Netflix,S004
+NWL,Newell Brands,S006
+NEM,Newmont,S009
+NWSA,News Corp (Class A),S004
+NWS,News Corp (Class B),S004
+NEE,NextEra Energy,S007
+NKE,"Nike, Inc.",S006
+NI,NiSource,S007
+NDSN,Nordson Corporation,S001
+NSC,Norfolk Southern Railway,S001
+NTRS,Northern Trust,S008
+NOC,Northrop Grumman,S001
+NCLH,Norwegian Cruise Line Holdings,S006
+NRG,NRG Energy,S007
+NUE,Nucor,S009
+NVDA,Nvidia,S003
+NVR,"NVR, Inc.",S006
+NXPI,NXP Semiconductors,S003
+ORLY,O'Reilly Auto Parts,S006
+OXY,Occidental Petroleum,S011
+ODFL,Old Dominion,S001
+OMC,Omnicom Group,S004
+ON,ON Semiconductor,S003
+OKE,ONEOK,S011
+ORCL,Oracle Corporation,S003
+OGN,Organon & Co.,S002
+OTIS,Otis Worldwide,S001
+PCAR,Paccar,S001
+PKG,Packaging Corporation of America,S009
+PARA,Paramount Global,S004
+PH,Parker Hannifin,S001
+PAYX,Paychex,S001
+PAYC,Paycom,S003
+PYPL,PayPal,S008
+PNR,Pentair,S001
+PEP,PepsiCo,S005
+PKI,PerkinElmer,S002
+PFE,Pfizer,S002
+PCG,PG&E Corporation,S007
+PM,Philip Morris International,S005
+PSX,Phillips 66,S011
+PNW,Pinnacle West,S007
+PXD,Pioneer Natural Resources,S011
+PNC,PNC Financial Services,S008
+POOL,Pool Corporation,S006
+PPG,PPG Industries,S009
+PPL,PPL Corporation,S007
+PFG,Principal Financial Group,S008
+PG,Procter & Gamble,S005
+PGR,Progressive Corporation,S008
+PLD,Prologis,S010
+PRU,Prudential Financial,S008
+PEG,Public Service Enterprise Group,S007
+PTC,PTC,S003
+PSA,Public Storage,S010
+PHM,PulteGroup,S006
+QRVO,Qorvo,S003
+PWR,Quanta Services,S001
+QCOM,Qualcomm,S003
+DGX,Quest Diagnostics,S002
+RL,Ralph Lauren Corporation,S006
+RJF,Raymond James,S008
+RTX,Raytheon Technologies,S001
+O,Realty Income,S010
+REG,Regency Centers,S010
+REGN,Regeneron,S002
+RF,Regions Financial Corporation,S008
+RSG,Republic Services,S001
+RMD,ResMed,S002
+RHI,Robert Half,S001
+ROK,Rockwell Automation,S001
+ROL,"Rollins, Inc.",S001
+ROP,Roper Technologies,S003
+ROST,Ross Stores,S006
+RCL,Royal Caribbean Group,S006
+SPGI,S&P Global,S008
+CRM,Salesforce,S003
+SBAC,SBA Communications,S010
+SLB,Schlumberger,S011
+STX,Seagate Technology,S003
+SEE,Sealed Air,S009
+SRE,Sempra Energy,S007
+NOW,ServiceNow,S003
+SHW,Sherwin-Williams,S009
+SPG,Simon Property Group,S010
+SWKS,Skyworks Solutions,S003
+SJM,J.M. Smucker Company (The),S005
+SNA,Snap-on,S001
+SEDG,SolarEdge,S003
+SO,Southern Company,S007
+LUV,Southwest Airlines,S001
+SWK,Stanley Black & Decker,S001
+SBUX,Starbucks,S006
+STT,State Street Corporation,S008
+STLD,Steel Dynamics,S009
+STE,Steris,S002
+SYK,Stryker Corporation,S002
+SYF,Synchrony Financial,S008
+SNPS,Synopsys,S003
+SYY,Sysco,S005
+TMUS,T-Mobile US,S004
+TROW,T. Rowe Price,S008
+TTWO,Take-Two Interactive,S004
+TPR,"Tapestry, Inc.",S006
+TRGP,Targa Resources,S011
+TGT,Target Corporation,S005
+TEL,TE Connectivity,S003
+TDY,Teledyne Technologies,S003
+TFX,Teleflex,S002
+TER,Teradyne,S003
+TSLA,"Tesla, Inc.",S006
+TXN,Texas Instruments,S003
+TXT,Textron,S001
+TMO,Thermo Fisher Scientific,S002
+TJX,TJX Companies,S006
+TSCO,Tractor Supply,S006
+TT,Trane Technologies,S001
+TDG,TransDigm Group,S001
+TRV,Travelers Companies (The),S008
+TRMB,Trimble Inc.,S003
+TFC,Truist,S008
+TYL,Tyler Technologies,S003
+TSN,Tyson Foods,S005
+USB,U.S. Bank,S008
+UDR,"UDR, Inc.",S010
+ULTA,Ulta Beauty,S006
+UNP,Union Pacific Corporation,S001
+UAL,United Airlines Holdings,S001
+UPS,United Parcel Service,S001
+URI,United Rentals,S001
+UNH,UnitedHealth Group,S002
+UHS,Universal Health Services,S002
+VLO,Valero Energy,S011
+VTR,Ventas,S010
+VRSN,Verisign,S003
+VRSK,Verisk,S001
+VZ,Verizon,S004
+VRTX,Vertex Pharmaceuticals,S002
+VFC,VF Corporation,S006
+VTRS,Viatris,S002
+VICI,Vici Properties,S010
+V,Visa Inc.,S008
+VMC,Vulcan Materials Company,S009
+WAB,Wabtec,S001
+WBA,Walgreens Boots Alliance,S005
+WMT,Walmart,S005
+WBD,Warner Bros. Discovery,S004
+WM,Waste Management,S001
+WAT,Waters Corporation,S002
+WEC,WEC Energy Group,S007
+WFC,Wells Fargo,S008
+WELL,Welltower,S010
+WST,West Pharmaceutical Services,S002
+WDC,Western Digital,S003
+WRK,WestRock,S009
+WY,Weyerhaeuser,S010
+WHR,Whirlpool Corporation,S006
+WMB,Williams Companies,S011
+WTW,Willis Towers Watson,S008
+GWW,W. W. Grainger,S001
+WYNN,Wynn Resorts,S006
+XEL,Xcel Energy,S007
+XYL,Xylem Inc.,S001
+YUM,Yum! Brands,S006
+ZBRA,Zebra Technologies,S003
+ZBH,Zimmer Biomet,S002
+ZION,Zions Bancorporation,S008
+ZTS,Zoetis,S002
