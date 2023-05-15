@@ -1,0 +1,127 @@
+Industry_Id,Industry,Sector_Id
+I001,Industrial Conglomerates,S001
+I002,Building Products,S001
+I003,Health Care Equipment,S002
+I004,Pharmaceuticals,S002
+I005,IT Consulting & Other Services,S003
+I006,Interactive Home Entertainment,S004
+I007,Agricultural Products & Services,S005
+I008,Application Software,S003
+I009,Human Resource & Employment Services,S001
+I010,Automotive Retail,S006
+I011,Independent Power Producers & Energy Traders,S007
+I012,Life & Health Insurance,S008
+I014,Industrial Gases,S009
+I015,Internet Services & Infrastructure,S003
+I016,Passenger Airlines,S001
+I017,Specialty Chemicals,S009
+I018,Office REITs,S010
+I019,Health Care Supplies,S002
+I021,Electric Utilities,S007
+I022,Property & Casualty Insurance,S008
+I023,Interactive Media & Services,S004
+I025,Tobacco,S005
+I026,Internet & Direct Marketing Retail,S006
+I027,Paper & Plastic Packaging Products & Materials,S009
+I028,Semiconductors,S003
+I029,Multi-Utilities,S007
+I032,Consumer Finance,S008
+I034,Telecom Tower REITs,S010
+I035,Water Utilities,S007
+I036,Asset Management & Custody Banks,S008
+I037,Health Care Distributors,S002
+I038,Electrical Components & Equipment,S001
+I039,Biotechnology,S002
+I040,Electronic Components,S003
+I043,Insurance Brokers,S008
+I044,Oil & Gas Exploration & Production,S011
+I045,"Technology Hardware, Storage & Peripherals",S003
+I046,Semiconductor Materials & Equipment,S003
+I047,Automotive Parts & Equipment,S006
+I048,Reinsurance,S008
+I049,Communications Equipment,S003
+I051,Multi-line Insurance,S008
+I052,Integrated Telecommunication Services,S004
+I053,Gas Utilities,S007
+I055,Specialty Stores,S006
+I056,Residential REITs,S010
+I058,Aerospace & Defense,S001
+I059,Oil & Gas Equipment & Services,S011
+I060,"Metal, Glass & Plastic Containers",S009
+I061,Diversified Banks,S008
+I066,Multi-Sector Holdings,S008
+I067,Computer & Electronics Retail,S006
+I068,Life Sciences Tools & Services,S002
+I080,Data Processing & Outsourced Services,S001
+I082,Distillers & Vintners,S005
+I084,Air Freight & Logistics,S001
+I086,Casinos & Gaming,S006
+I088,Packaged Foods & Meats,S005
+I092,"Hotels, Resorts & Cruise Lines",S006
+I095,Construction Machinery & Heavy Transportation Equipment,S001
+I096,Financial Exchanges & Data,S008
+I097,Real Estate Services,S010
+I098,Technology Distributors,S003
+I100,Managed Health Care,S002
+I103,Fertilizers & Agricultural Chemicals,S009
+I105,Investment Banking & Brokerage,S008
+I106,Cable & Satellite,S004
+I107,Integrated Oil & Gas,S011
+I108,Restaurants,S006
+I110,Household Products,S005
+I113,Diversified Support Services,S001
+I116,Regional Banks,S008
+I120,Soft Drinks & Non-alcoholic Beverages,S005
+I134,Research & Consulting Services,S001
+I135,Consumer Staples Merchandise Retail,S005
+I138,Rail Transportation,S001
+I139,Industrial Machinery & Supplies & Components,S001
+I140,Health Care Services,S002
+I141,Homebuilding,S006
+I144,Health Care Facilities,S002
+I145,Agricultural & Farm Machinery,S001
+I151,Data Center REITs,S010
+I154,Movies & Entertainment,S004
+I160,Commodity Chemicals,S009
+I165,Diversified Chemicals,S009
+I184,Personal Care Products,S005
+I192,Self-Storage REITs,S010
+I198,Retail REITs,S010
+I203,Transaction & Payment Processing Services,S008
+I207,Automobile Manufacturers,S006
+I208,Systems Software,S003
+I213,Copper,S009
+I214,Consumer Electronics,S006
+I216,Health Care Technology,S002
+I230,Leisure Products,S006
+I232,Health Care REITs,S010
+I239,Home Improvement Retail,S006
+I242,Hotel & Resort REITs,S010
+I260,Advertising,S004
+I266,Other Specialized REITs,S010
+I267,Cargo Ground Transportation,S001
+I269,Construction & Engineering,S001
+I277,Electronic Equipment & Instruments,S003
+I280,Oil & Gas Storage & Transportation,S011
+I283,Food Retail,S005
+I294,Distributors,S006
+I301,Oil & Gas Refining & Marketing,S011
+I305,Construction Materials,S009
+I323,Home Furnishings,S006
+I325,Brewers,S005
+I337,Housewares & Specialties,S006
+I338,Gold,S009
+I339,Publishing,S004
+I342,"Apparel, Accessories & Luxury Goods",S006
+I350,Steel,S009
+I386,Industrial REITs,S010
+I403,Environmental & Facilities Services,S001
+I409,Apparel Retail,S006
+I435,Food Distributors,S005
+I436,Wireless Telecommunication Services,S004
+I442,Electronic Manufacturing Services,S003
+I465,Trading Companies & Distributors,S001
+I480,Drug Retail,S005
+I482,Broadcasting,S004
+I491,Timber REITs,S010
+I492,Household Appliances,S006
