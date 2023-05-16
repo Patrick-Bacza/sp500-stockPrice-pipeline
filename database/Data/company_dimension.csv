@@ -64,7 +64,7 @@ BBWI,"Bath & Body Works, Inc.",S006,I055
 BAX,Baxter International,S002,I003
 BDX,Becton Dickinson,S002,I003
 WRB,Berkley,S008,I022
-BRK.B,Berkshire Hathaway,S008,I066
+BRK-B,Berkshire Hathaway,S008,I066
 BBY,Best Buy,S006,I067
 BIO,Bio-Rad,S002,I068
 TECH,Bio-Techne,S002,I068
@@ -80,7 +80,7 @@ BMY,Bristol Myers Squibb,S002,I004
 AVGO,Broadcom Inc.,S003,I028
 BR,Broadridge Financial Solutions,S001,I080
 BRO,Brown & Brown,S008,I043
-BF.B,Brown–Forman,S005,I082
+BF-B,Brown-Forman,S005,I082
 BG,Bunge Limited,S005,I007
 CHRW,C.H. Robinson,S001,I084
 CDNS,Cadence Design Systems,S003,I008
