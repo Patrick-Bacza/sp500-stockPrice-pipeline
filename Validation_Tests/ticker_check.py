@@ -1,4 +1,4 @@
-### The purpose of this valdation checkl is to match the current sp500 company list with what is extracted from yahoo finance. This wil lcontrol for any errors that would cause scrapy to not scrape data for a company. It will also control for companies that are removed from the index
+### The purpose of this valdation checkl is to match the current sp500 company list with what is extracted from yahoo finance. This will control for any errors that would cause scrapy to not scrape data for a company.
 
 ### Import modules
 import pandas as pd
@@ -22,6 +22,12 @@ s3_client = boto3.client('s3', aws_access_key_id=access_key,
                          aws_secret_access_key=secret_key,
                          region_name=region)
 
+# List objects in the S3 bucket
+response = s3_client.list_objects_v2(Bucket=bucket)
+
+# Get the most recent file in the S3 bucket
+most_recent_file = max(response['Contents'], key=lambda x: x['LastModified'])
+most_recent_file_key = most_recent_file['Key']
 
 # Get the most recent file in the S3 bucket
 most_recent_file = max(response['Contents'], key=lambda x: x['LastModified'])
@@ -33,3 +39,26 @@ file_path =  os.path.basename(most_recent_file_key)
 s3_client.download_file(bucket, most_recent_file_key, file_path)
 
 extracted_tickers = pd.read_csv(file_path, usecols=['Ticker'])
+
+### read in csv with tickers currently in database
+
+tickers_df = pd.read_csv('../database/Data/company_info.csv' , usecols=['Ticker'])
+
+
+### Create two sets. One with the tickers from the daily extraction and one with the tickers from the database
+extracted_set = set(extracted_tickers['Ticker'])
+
+tickers_list_set = set(tickers_df['Ticker'])
+
+
+
+ 
+difference = tickers_list_set.difference(extracted_set)
+
+
+
+
+os.remove(file_path)
+
+if tickers_list_set != extracted_set:
+    raise Exception(f"Ticker validation failed: Lists do not match: {difference}")
