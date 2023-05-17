@@ -6,21 +6,22 @@ from datetime import date
 
 
 
-# df = pd.read_csv('/Data/company_info.csv' , usecols=['Ticker'])
-# ticker_list = list(df['Ticker'])
-# url_list = []
+df = pd.read_csv('/Data/company_info.csv' , usecols=['Ticker'])
+ticker_list = list(df['Ticker'])
+url_list = []
 
-# for i in ticker_list:
-#     url_list.append(f'https://finance.yahoo.com/quote/{i}?p={i}')
+for i in ticker_list:
+     url_list.append(f'https://finance.yahoo.com/quote/{i}?p={i}')
 
 class stockPrices(scrapy.Spider):
     name = 'stock_prices'
 
-    start_urls = ['https://finance.yahoo.com/quote/ADM?p=ADM' , 'https://finance.yahoo.com/quote/ALB?p=ALB' ,'https://finance.yahoo.com/quote/BF-B?p=BF-', 'https://finance.yahoo.com/quote/BRK-B?p=BRK-B' ] #url_list
+    start_urls =  url_list
 
 
 
     def parse(self, response):
+       
         ticker = response.css('div#quote-header-info fin-streamer[data-field="regularMarketPrice"]::attr(data-symbol)').get()
         openPrice = response.css('#quote-header  td[data-test="OPEN-value"]::text').get()
         closePrice =  response.css('div#quote-header-info fin-streamer[data-field="regularMarketPrice"]::text').get()
