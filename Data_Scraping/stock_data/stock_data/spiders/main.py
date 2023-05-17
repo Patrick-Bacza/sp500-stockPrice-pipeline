@@ -6,7 +6,7 @@ from datetime import date
 
 
 
-df = pd.read_csv('/Data/company_info.csv' , usecols=['Ticker'])
+df = pd.read_csv('/mnt/c/Users/Patrick/Documents/Projects/sp500-stockPrice-pipeline/database/Data/company_info.csv' , usecols=['Ticker'])
 ticker_list = list(df['Ticker'])
 url_list = []
 

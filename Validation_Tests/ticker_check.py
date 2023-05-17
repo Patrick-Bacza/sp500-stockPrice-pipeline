@@ -9,7 +9,7 @@ import os
 
 ## import s3 credentials
 parser = configparser.ConfigParser()
-parser.read("../credentials.conf")
+parser.read("/mnt/c/Users/Patrick/documents/projects/sp500-stockPrice-pipeline/credentials.conf")
 
 access_key  = parser.get("aws_boto_credentials", "access_key")
 secret_key = parser.get("aws_boto_credentials", "secret_key")
@@ -42,7 +42,7 @@ extracted_tickers = pd.read_csv(file_path, usecols=['Ticker'])
 
 ### read in csv with tickers currently in database
 
-tickers_df = pd.read_csv('../database/Data/company_info.csv' , usecols=['Ticker'])
+tickers_df = pd.read_csv('/mnt/c/Users/Patrick/Documents/Projects/sp500-stockPrice-pipeline/database/Data/company_info.csv' , usecols=['Ticker'])
 
 
 ### Create two sets. One with the tickers from the daily extraction and one with the tickers from the database
