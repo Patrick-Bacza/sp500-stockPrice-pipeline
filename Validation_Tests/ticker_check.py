@@ -1,4 +1,4 @@
-### The purpose of this valdation checkl is to match the current sp500 company list with what is extracted from yahoo finance. This will control for any errors that would cause scrapy to not scrape data for a company.
+### The purpose of this validation check is to match the current sp500 company list with what is extracted from yahoo finance. This will control for any errors that would cause scrapy to not scrape data for a company.
 
 ### Import modules
 import pandas as pd
