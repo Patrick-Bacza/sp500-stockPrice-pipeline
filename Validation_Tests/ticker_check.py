@@ -25,9 +25,7 @@ s3_client = boto3.client('s3', aws_access_key_id=access_key,
 # List objects in the S3 bucket
 response = s3_client.list_objects_v2(Bucket=bucket)
 
-# Get the most recent file in the S3 bucket
-most_recent_file = max(response['Contents'], key=lambda x: x['LastModified'])
-most_recent_file_key = most_recent_file['Key']
+
 
 # Get the most recent file in the S3 bucket
 most_recent_file = max(response['Contents'], key=lambda x: x['LastModified'])
