@@ -11,7 +11,7 @@ ticker_list = list(df['Ticker'])
 url_list = []
 
 for i in ticker_list:
-     url_list.append(f'https://finance.yahoo.com/quote/{i}?p={i}')
+      url_list.append(f'https://finance.yahoo.com/quote/{i}?p={i}')
 
 class stockPrices(scrapy.Spider):
     name = 'stock_prices'
@@ -23,17 +23,17 @@ class stockPrices(scrapy.Spider):
     def parse(self, response):
        
         ticker = response.css('div#quote-header-info fin-streamer[data-field="regularMarketPrice"]::attr(data-symbol)').get()
-        openPrice = response.css('#quote-header  td[data-test="OPEN-value"]::text').get().replace(',' , '')
-        closePrice =  response.css('div#quote-header-info fin-streamer[data-field="regularMarketPrice"]::text').get().replace(',' , '')
-        volume = response.css('#quote-header [data-field="regularMarketVolume"]::text').get().replace(',' , '')
-        previousClose = response.css('#quote-header  td[data-test="PREV_CLOSE-value"]::text').get().replace(',' , '')
-        daysRange = response.css('#quote-header  td[data-test="DAYS_RANGE-value"]::text').get().split('-').replace(',' , '')
-        low = daysRange[0].strip()
-        high = daysRange[1].strip()
+        openPrice = response.css('#quote-header  td[data-test="OPEN-value"]::text').get().replace(',' ,'')
+        closePrice =  response.css('div#quote-header-info fin-streamer[data-field="regularMarketPrice"]::text').get().replace(',' ,'')
+        volume = response.css('#quote-header [data-field="regularMarketVolume"]::text').get().replace(',' ,'')
+        previousClose = response.css('#quote-header  td[data-test="PREV_CLOSE-value"]::text').get().replace(',' ,'')
+        daysRange = response.css('#quote-header  td[data-test="DAYS_RANGE-value"]::text').get().split('-')
+        low = daysRange[0].strip().replace(',' ,'')
+        high = daysRange[1].strip().replace(',' ,'')
         bid = response.css('[data-test="BID-value"]::text').get().split('x')
-        bidPrice = bid[0].strip().replace(',' , '')
+        bidPrice = bid[0].strip().replace(',' ,'')
         ask = response.css('[data-test="ASK-value"]::text').get().split('x')
-        askPrice = ask[0].strip().replace(',' , '')
+        askPrice = ask[0].strip().replace(',' ,'')
 
 
 
