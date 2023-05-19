@@ -20,16 +20,16 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 ROBOTSTXT_OBEY = True
 
 
-# FEEDS = {
-#     "s3://dailystockprices/%(name)s/%(name)s_%(time)s.csv": {
-#     "format": "csv",
-#     }
-# }
+FEEDS = {
+    "s3://dailystockprices/%(name)s/%(name)s_%(time)s.csv": {
+    "format": "csv",
+    }
+}
 
-# AWS_ACCESS_KEY_ID = 'AKIAZEXWGFMGKEXRIWV6'
-# AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = 'AKIAZEXWGFMGKEXRIWV6'
+AWS_SECRET_ACCESS_KEY = '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'
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-#CONCURRENT_REQUESTS = 32
+# CONCURRENT_REQUESTS = 32
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
