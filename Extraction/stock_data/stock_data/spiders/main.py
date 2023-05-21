@@ -26,7 +26,7 @@ class stockPrices(scrapy.Spider):
         openPrice = response.css('#quote-header  td[data-test="OPEN-value"]::text').get().replace(',' ,'')
         closePrice =  response.css('div#quote-header-info fin-streamer[data-field="regularMarketPrice"]::text').get().replace(',' ,'')
         volume = response.css('#quote-header [data-field="regularMarketVolume"]::text').get().replace(',' ,'')
-        previousClose = response.css('#quote-header  td[data-test="PREV_CLOSE-value"]::text').get().replace(',' ,'')
+        #previousClose = response.css('#quote-header  td[data-test="PREV_CLOSE-value"]::text').get().replace(',' ,'')
         daysRange = response.css('#quote-header  td[data-test="DAYS_RANGE-value"]::text').get().split('-')
         low = daysRange[0].strip().replace(',' ,'')
         high = daysRange[1].strip().replace(',' ,'')
@@ -44,7 +44,6 @@ class stockPrices(scrapy.Spider):
             "Open": openPrice,
             "Close": closePrice,
             "Volume": volume,
-            "Previous Close": previousClose,
             "Intraday Low": low,
             "Intraday High": high,
             "Bid": bidPrice,
