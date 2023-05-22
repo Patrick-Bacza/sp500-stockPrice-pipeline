@@ -1,4 +1,4 @@
-CREATE TABLE test (
+CREATE TABLE daily_stock_prices (
 	id SERIAL PRIMARY KEY,
 	date DATE,
 	ticker VARCHAR(5),
