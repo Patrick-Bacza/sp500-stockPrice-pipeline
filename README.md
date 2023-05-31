@@ -1,6 +1,6 @@
 # SP 500 Stock Price Pipeline
 
-The purpose of this project was to build an automated data pipeline that extracts daily stock prices from Yahoo Finance and store them into a AWS RDS Postres database. The data is then used to create dashdboards in Power BI  to extract insights. The data is processed in batches everyday Monday to Friday as a csv file and saved in an Amazon S3 Bucket and then loaded into the database from the S3 bucket. The whole process is automated in Apache Airflow. 
+The purpose of this project was to build an automated data pipeline that extracts daily stock prices from Yahoo Finance and store them in an AWS RDS Postgres database. The data is then used to create dashdboards in Power BI to extract insights. The data is processed in batches everyday Monday to Friday as a csv file and saved in an Amazon S3 Bucket and then loaded into the database from the S3 bucket. The whole process is automated in Apache Airflow. 
 ## Table of Contents
 
 ## Technologies Used
@@ -52,18 +52,26 @@ The purpose of this project was to build an automated data pipeline that extract
       testing ground
       ticker_check.py
 ## Source System 
-   ### The source system for the stock data is Yahoo Finance (https://finance.yahoo.com/). Yahoo finance, continually updates stock prices in real time until market close at 4:00pm. Here you can find a summary showing the open and close prices, volume, average volume, bid and ask spreads, the days range and much more. They also have tabs where you can use interactive charts to analyze a given stock and tabs that show more statistics and historical data. For our purposes, we only need to be concerned with the sumnmary page. This tab has all the information that we are going to scrape from the website: ticker, open price , closing price, day's range, and volume
+   ### The source system for the stock data is Yahoo Finance (https://finance.yahoo.com/). Yahoo finance, continually updates stock prices in real time until market close at 4:00pm. Here you can find a summary showing the open and close prices, volume, average volume, bid and ask spreads, the days range and much more. They also have tabs where you can use interactive charts to analyze a given stock and tabs that show more statistics and historical data. For our purposes, we only need to be concerned with the summary page. This tab has all the information that we are going to scrape from the website: ticker, open price , closing price, day's range, and volume
 ## Ingestion
  ### Extraction
    ###      I used a batch processing method that gets the data for each stock after the market closes. Once the data for every company is collected, the batch is loaded into a S3 bucket as a csv file. 
    ###      In order to achieve this I employed a python module called Scrapy. Scrapy is a webscraping module that uses css selectors to get elements from the underlying html file that powers a web page. I also needed a way to get to the webpage of each company on the sp500. I was able to do this by having my script dynamically change the url to scrape. Here is an example url: https://finance.yahoo.com/quote/AAPL?p=AAPL&.tsrc=fin-srch. As you can see the ticker symbol appears twice in the url. What I did was iterate through a list of tickers creating the url shown above for each ticker. The web scraping script then scrapes each url; appending a csv file with each companies data. Once all the urls are scraped, the csv file is loaded to the S3 bucket.
+ ### Validation Test 
+ ###        Once the data has been extracted and loaded to the S3 bucket, a validation test is run to ensure that data was extracted for each ticker in the dataset. The test runs by pulling the most recent file from S3 and reading in the ticker symbols from the dataset as well as reading in the ticker symbols currently in the database. The test then matches the two lists together, If the lists match, the test passses and the task that moves the data from S3 to the RDS starts. If the lists do not match, the test throws an exception error and halts the pipeline. The error messaage will then tell you which ticker symbols were not extracted from yahoo finance. additionally, an email is sent notifying me that the test has failed. 
    ### Load 
+   ###       Once the validation test passes, a python script is used to connect to the S3 bucket and extract the most recent file added to the bucket. It then imports the data in the stock data RDS.
 ## Transform 
-## Validation Tests
+   ### 
+
 ## Orchestration Metrics 
   ### Pipeline Performance
+  ### Coming Soon
   ### Validation Poerformance
+  ### Coming Soon
 ## Limitations
+## Further Enhancements
+
 
     
       
