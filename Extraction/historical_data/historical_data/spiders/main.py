@@ -8,7 +8,7 @@ ticker_list = list(df['Ticker'])
 url_list = []
 
 for i in ticker_list:
-     url_list.append(f'https://finance.yahoo.com/quote/{i}/history?period1=1652918400&period2=1659312000&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true')
+    url_list.append(f'https://finance.yahoo.com/quote/{i}/history?period1=1671753600&period2=1671840000&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true')
 
 
 class stockPrices(scrapy.Spider):
@@ -18,7 +18,7 @@ class stockPrices(scrapy.Spider):
 
     def parse(self, response):
          
-        with open('May192021_Aug022022.csv', 'a', newline='') as csvfile:
+        with open('Dec232022Correction.csv', 'a', newline='') as csvfile:
             writer = csv.writer(csvfile)
 
             rows = response.css('table[data-test="historical-prices"] tr')
