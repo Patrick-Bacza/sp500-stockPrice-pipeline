@@ -22,7 +22,7 @@ The purpose of this project was to build an automated data pipeline that extract
 ## Source System 
    ###      The source system for the stock data is Yahoo Finance (https://finance.yahoo.com/). Yahoo finance, continually updates stock prices in real time until after market trading hours stops at 8:00pm. Here you can find a summary showing the open and close prices, volume, average volume, bid and ask spreads, the days range and much more. They also have tabs where you can use interactive charts to analyze a given stock and tabs that show more statistics and historical data. For our purposes, we only need to be concerned with the summary page. This tab has all the information that we are going to scrape from the website: ticker, open price , closing price, day's range, and volume.
 ## Database
-   ### I used an AWS PostgreSQL RDS as my database. It is a simple database with 3 dimensional tables: 1. Sectors - List of Sector names and ids 2. Industries - List of Industries, and industry IDs 3. Company dimension - Lists the ticker symbol, company name , sector ID and Industry ID and one fact table for the daily stock price data.
+   ### I used an AWS PostgreSQL RDS as my database. It is a simple database with 3 dimensional tables: 1. Sectors - List of Sectors 2. Industries - List of Industries 3. Company dimension - Lists the ticker symbol, company name , sector ID and Industry ID and one fact table for the daily stock price data.
    
 ## Ingestion
  ### Extraction
@@ -33,7 +33,11 @@ The purpose of this project was to build an automated data pipeline that extract
    ### Load 
    ###       Once the validation test passes, a python script is used to connect to the S3 bucket and extract the most recent file added to the bucket. It then imports the data in the stock data RDS.
 ## Transform 
-   ### 
+   ### I used Power BI as my visualization software to transform, visualize and serve the stock data. I created three separate views of the data:
+   ###      1. 
+   ###      2. Snapshot of top gainers/losers
+   ###      3. Single stock dashboard
+   ###      4. Industry dashboard
 
 ## Orchestration Metrics 
   ### Pipeline Performance
