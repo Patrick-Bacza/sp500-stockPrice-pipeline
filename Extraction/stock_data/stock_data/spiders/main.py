@@ -16,7 +16,7 @@ for i in ticker_list:
 class stockPrices(scrapy.Spider):
     name = 'stock_prices'
 
-    start_urls =  url_list
+    start_urls = ['https://finance.yahoo.com/quote/AAPL?p=AAPL&.tsrc=fin-srch'] #url_list
 
 
 
