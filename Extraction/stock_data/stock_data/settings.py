@@ -20,6 +20,7 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 ROBOTSTXT_OBEY = True
 
 
+
 FEEDS = {
     "s3://dailystockprices/%(name)s/%(name)s_%(time)s.csv": {
     "format": "csv",
