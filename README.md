@@ -47,6 +47,7 @@ The purpose of this project was to build an automated data pipeline that extract
 ### Limitations
   ##        The SP500 can and does remove and add companies infrequently throughout the year. For Example, Silicon Valley Bank was removed when it collapsed. Currently I do not have a way to automatically check and handle this. I have to periodically check the SP500 website for these updates and then manually add the companies to the database. Furthermore, I then have to run a data extraction script to get the historical data for any added companies. 
 ## Further Enhancements
+      ### The S&P 500 index periodically removes and adds companies to the index. The pipeline currently doesn't have the functionality to automatically take care of this. I have to manually add any new companies added to the index. Currently, the only way to find out about additions and subtractions is by waiting for statements from the index. Thus, it is not possible yet to set an automated way to check for any additions, grab the historical stock data and add them to the database. In the future, I would liek to find a way to automate handling slowly changing dimensions.
 
 
     
