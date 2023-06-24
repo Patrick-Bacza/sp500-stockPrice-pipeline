@@ -38,8 +38,8 @@ class stockPrices(scrapy.Spider):
 
 
         if ticker == '^GSPC':  # Check if the ticker is for the S&P 500 index
-            bidPrice = 0  # Set bid price to None
-            askPrice = 0  # Set ask price to None
+            bidPrice = 0.0  # Set bid price to None
+            askPrice = 0.0  # Set ask price to None
         else:
             bidPrice = bid.split('x')[0].strip().replace(',', '') if bid else None
             askPrice = ask.split('x')[0].strip().replace(',', '') if ask else None
