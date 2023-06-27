@@ -31,18 +31,9 @@ class stockPrices(scrapy.Spider):
         daysRange = response.css('#quote-header  td[data-test="DAYS_RANGE-value"]::text').get().split('-')
         low = daysRange[0].strip().replace(',' ,'')
         high = daysRange[1].strip().replace(',' ,'')
-        bid = response.css('[data-test="BID-value"]::text').get()
-       # bidPrice = bid[0].strip().replace(',' ,'')
-        ask = response.css('[data-test="ASK-value"]::text').get()
-       # askPrice = ask[0].strip().replace(',' ,'')
+       
 
-
-        if ticker == '^GSPC':  # Check if the ticker is for the S&P 500 index
-            bidPrice = 0.0  # Set bid price to None
-            askPrice = 0.0  # Set ask price to None
-        else:
-            bidPrice = bid.split('x')[0].strip().replace(',', '') if bid else None
-            askPrice = ask.split('x')[0].strip().replace(',', '') if ask else None
+      
 
 
         yield {
@@ -54,8 +45,7 @@ class stockPrices(scrapy.Spider):
             "Volume": volume,
             "Intraday Low": low,
             "Intraday High": high,
-            "Bid": bidPrice,
-            "Ask": askPrice
+            
         }
 
 
