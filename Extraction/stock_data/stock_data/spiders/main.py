@@ -6,13 +6,27 @@ from datetime import date
 
 
 
-df =  pd.read_csv('/mnt/c/Users/Patrick/Documents/Projects/sp500-stockPrice-pipeline/database/Data/company_info.csv' , usecols=['Ticker'])
+company_df =  pd.read_csv('/mnt/c/Users/Patrick/Documents/Projects/sp500-stockPrice-pipeline/database/Data/company_info.csv' , usecols=['Ticker'])
+sector_df  =  pd.read_csv('/mnt/c/Users/Patrick/Documents/Projects/sp500-stockPrice-pipeline/database/Data/Indices_dimension.csv' , usecols=['Ticker'])
+
+sector_df['Ticker'] = sector_df['Ticker'].str.replace('^' , '')
+
+frames = [company_df , sector_df]
+
+df = pd.concat(frames)
+
 ticker_list = list(df['Ticker'])
-url_list = ['https://finance.yahoo.com/quote/%5EGSPC?p=%5EGSPC']
+url_list = []
 
 for i in ticker_list:
-    if i != "^GSPC":
-        url_list.append(f'https://finance.yahoo.com/quote/{i}?p={i}')
+    if i == 'GSPC':
+        url_list.append(f'https://finance.yahoo.com/quote/%5E{i}?p=%5E{i}')
+
+    elif 'SP500' in i:
+        url_list.append(f'https://finance.yahoo.com/quote/%5E{i}?p=%5E{i}')
+
+    else:
+     url_list.append(f'https://finance.yahoo.com/quote/{i}?p={i}')
 
 class stockPrices(scrapy.Spider):
     name = 'stock_prices'
