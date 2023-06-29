@@ -40,8 +40,12 @@ extracted_tickers = pd.read_csv(file_path, usecols=['Ticker'])
 
 ### read in csv with tickers currently in database
 
-tickers_df = pd.read_csv('/mnt/c/Users/Patrick/Documents/Projects/sp500-stockPrice-pipeline/database/Data/company_info.csv' , usecols=['Ticker'])
+company_df = pd.read_csv('/mnt/c/Users/Patrick/Documents/Projects/sp500-stockPrice-pipeline/database/Data/company_info.csv' , usecols=['Ticker'])
+sector_df  =  pd.read_csv('/mnt/c/Users/Patrick/Documents/Projects/sp500-stockPrice-pipeline/database/Data/Indices_dimension.csv' , usecols=['Ticker'])
 
+frames = [company_df , sector_df]
+
+tickers_df = pd.concat(frames)
 
 ### Create two sets. One with the tickers from the daily extraction and one with the tickers from the database
 extracted_set = set(extracted_tickers['Ticker'])
