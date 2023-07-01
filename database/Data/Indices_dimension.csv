@@ -1,7 +1,6 @@
 ﻿Ticker,Index
-^GSPC,S&P 500
 ^SP500-60,Real Estate
-^SP500-10TR,Energy
+^GSPE,Energy
 ^SP500-15,Materials 
 ^SP500-40,Financials
 ^SP500-55,Utilities
