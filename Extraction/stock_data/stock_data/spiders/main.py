@@ -21,6 +21,9 @@ url_list = []
 for i in ticker_list:
     if i == 'GSPC':
         url_list.append(f'https://finance.yahoo.com/quote/%5E{i}?p=%5E{i}')
+    
+    elif i == 'GSPE':
+        url_list.append(f'https://finance.yahoo.com/quote/%5E{i}?p=%5E{i}')
 
     elif 'SP500' in i:
         url_list.append(f'https://finance.yahoo.com/quote/%5E{i}?p=%5E{i}')
