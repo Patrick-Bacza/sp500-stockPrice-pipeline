@@ -52,7 +52,7 @@ s3_client.download_file(bucket, most_recent_file_key, file_path)
 with open(file_path, 'r') as file:
     next(file)
     cursor = rds_conn.cursor()
-    cursor.copy_from(file, 'daily_stock_prices', sep=',' ,columns=('date' , 'ticker' , 'open_price' ,'close_price' , 'volume' , 'intraday_low' , 'intraday_high'))  # Assuming a CSV file with comma-separated values
+    cursor.copy_from(file, 'daily_stock_prices', sep=',' ,columns=('date' , 'ticker' , 'open_price' ,'close_price' , 'volume' , 'intraday_low' , 'intraday_high' , 'previous_close'))  
     rds_conn.commit()
     cursor.close()
 
