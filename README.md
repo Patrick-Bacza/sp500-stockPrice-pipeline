@@ -17,18 +17,18 @@
 
 ## Technologies Used
 
-###   Python 
-###      Scrapy 
-###      Pandas
-###      Psycopg2 
-###      boto3 
-###      configparser 
-###  SQL
-###  Apache Airflow
-###  Power BI
-###  Amazon Web Services
-###     S3 
-###     RDS
+   ###   Python 
+   ###      Scrapy 
+   ###      Pandas
+   ###      Psycopg2 
+   ###      boto3 
+   ###      configparser 
+   ###  SQL
+   ###  Apache Airflow
+   ###  Power BI
+   ###  Amazon Web Services
+   ###     S3 
+   ###     RDS
 
 
 ## Source System 
