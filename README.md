@@ -1,6 +1,6 @@
 # SP 500 Stock Price Pipeline
 
-###      The purpose of this project was to build an automated data pipeline that extracts daily stock prices from Yahoo Finance and store them in an AWS RDS Postgres database. The data is then used to create dashboards in Power BI to extract insights. The data is processed in batches everyday Monday to Friday as a csv file and saved in an Amazon S3 Bucket and then loaded into the database from the S3 bucket. The whole process is automated in Apache Airflow. The dashboards will be incredibly useful in analyzing price points and trends for individual stocks, the S&P 500 index and sectors. Anyone will find value from them whether they are day traders or long term investers.
+###      The purpose of this project was to build an automated data pipeline that extracts daily stock prices from Yahoo Finance and store them in an AWS RDS Postgres database. The data is then used to create dashboards in Power BI to extract insights. The data is processed in batches everyday Monday to Friday as a csv file and saved in an Amazon S3 Bucket and then loaded into the database from the S3 bucket. The whole process is automated in Apache Airflow. The dashboards will be incredibly useful in analyzing price points and trends for individual stocks, the S&P 500 index and sectors. Anyone will find value from them whether they are day traders   , long term investers or casual investors.
 
 ### Below you will find the following sections:
 ###      Technologies Used
