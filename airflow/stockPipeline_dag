@@ -1,0 +1,59 @@
+from airflow import DAG
+from airflow.operators.bash import BashOperator
+from airflow.operators.email import EmailOperator
+from airflow.operators.python import BranchPythonOperator
+from datetime import datetime
+
+
+
+
+
+
+with DAG('stock_pipeline', start_date=datetime(2023,7,4), schedule_interval = '5 20 * * 1-5', catchup=False) as dag:
+   
+    extracting_task = BashOperator(
+        task_id = 'Extraction_Phase',
+        bash_command = 'cd /mnt/c/Users/Patrick/documents/projects/sp500-stockPrice-pipeline/Extraction/stock_data && scrapy crawl stock_prices'
+        
+    )
+
+    validation_test = BashOperator(
+        task_id = "validation_test",
+        bash_command='python3 /mnt/c/Users/Patrick/documents/projects/sp500-stockPrice-pipeline/Validation_Tests/ticker_check.py'
+    )
+
+    send_failure_email = EmailOperator(
+        task_id = 'validation_test_failure_notification',
+        to='Patrick.Bacza@outlook.com',
+        subject='Validaton Test Failure',
+        html_content='Not all stocks were extracted successfully.',
+        trigger_rule='one_failed'
+        
+
+    )
+
+    loading_task = BashOperator(
+        task_id = "Load_Phase",
+        bash_command='python3 /mnt/c/Users/Patrick/documents/projects/sp500-stockPrice-pipeline/Load/s3_to_rds.py',
+        trigger_rule="all_success"
+    )
+
+    send_completion_email_task = EmailOperator(
+        task_id='send_completion_email',
+        to='Patrick.Bacza@outlook.com',
+        subject='Daily Stock Prices Pipeline Notification',
+        html_content='The Pipeline has completed successfully.',
+        trigger_rule='none_failed'
+    )
+
+    send_failure_email_task = EmailOperator(
+        task_id='send_failure_email',
+        to='Patrick.Bacza@outlook.com',
+        subject='Daily Stock Prices Pipeline Notification',
+        html_content='The Pipeline has failed.',
+        trigger_rule='one_failed'
+    )
+
+
+
+extracting_task >> validation_test >> [send_failure_email  , loading_task] >> send_completion_email_task >> send_failure_email_task
