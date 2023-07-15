@@ -1,6 +1,6 @@
 # SP 500 Stock Price Pipeline
 
-The purpose of this project was to build an automated data pipeline that extracts daily stock prices from Yahoo Finance and store them in an AWS RDS Postgres database. The data is then used to create dashdboards in Power BI to extract insights. The data is processed in batches everyday Monday to Friday as a csv file and saved in an Amazon S3 Bucket and then loaded into the database from the S3 bucket. The whole process is automated in Apache Airflow. 
+###      The purpose of this project was to build an automated data pipeline that extracts daily stock prices from Yahoo Finance and store them in an AWS RDS Postgres database. The data is then used to create dashdboards in Power BI to extract insights. The data is processed in batches everyday Monday to Friday as a csv file and saved in an Amazon S3 Bucket and then loaded into the database from the S3 bucket. The whole process is automated in Apache Airflow. The dashboards will be incredibly useful in analyzing price points and trends for individual stocks, the S&P 500 index and sectors. Anyone will find value from them whether they are day trading or long term investing.
 
 ## Technologies Used
 
@@ -34,14 +34,14 @@ The purpose of this project was to build an automated data pipeline that extract
 ## Transform 
    ### I used Power BI as my visualization software to transform, visualize and serve the stock data. I created three separate views of the data:
    ###      1. S&P 500 Overview
-   ###            The dashboard has daily trading statistics, a candle stick chart, a simple line graph with the close price, 30 day average and 90 day moving average and a bar chart showing the total volume. In addtiion to viewing the SP500 Index, you can toggle between the different sector indexes as well.
+   ###            The dashboard has daily trading statistics, a candle stick chart, a simple line graph with the close price, 30 day average and 90 day moving average and a bar chart showing the total volume. In addtiion to viewing the SP500 Index, you can toggle between the different sector indices as well.
    ![image](https://github.com/Patrick-Bacza/sp500-stockPrice-pipeline/assets/120348192/20441d1f-912d-4af1-ab66-681ddfb6c2d8)         
    ###      2. Snapshot of top gainers/losers
    ###             The second page shows lists of top gaining and losing stocks over different periods of time (ex. day , week , month and Year-To-Date)
    ![image](https://github.com/Patrick-Bacza/sp500-stockPrice-pipeline/assets/120348192/c2a2dc0b-6160-4323-ac60-0c09d52979f4)
    
    ###      3. Single stock dashboard
-   ###              This dashboard closely mirrors the S&P 500 Index but is for the individual stocks. The only main difference is that there a Relative Strength Index for. The Relative Strength Index is a trading metric to show whether a stock is over bought or over sold. Tyically, a RSI of 70 or more indicates a stock is over bought and a RSI below 20 indicates a stock is over sold.  
+   ###              This dashboard closely mirrors the S&P 500 Index but is for the individual stocks. The only main difference is that there is a Relative Strength Index. The Relative Strength Index is a trading metric to show whether a stock is over bought or over sold. Tyically, a RSI of 70 or more indicates a stock is over bought and a RSI below 20 indicates a stock is over sold.  
   ![image](https://github.com/Patrick-Bacza/sp500-stockPrice-pipeline/assets/120348192/317b9dd1-79a8-4a5c-b0d1-6824f84bc0d9)
 
 
