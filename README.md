@@ -5,6 +5,7 @@
 ### Below you will find the following sections:
 ###      Technologies Used
 ###      Source System
+###      DAG
 ###      Ingestion
 ###            Extraction
 ###            Validation Test
@@ -29,6 +30,10 @@
    ###  Amazon Web Services
    ###     S3 
    ###     RDS
+
+## DAG
+![image](https://github.com/Patrick-Bacza/sp500-stockPrice-pipeline/assets/120348192/b71961c3-1042-43b5-ba68-4b246fc70639)
+
 
 
 ## Source System 
