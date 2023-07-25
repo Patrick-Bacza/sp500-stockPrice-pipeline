@@ -5,6 +5,7 @@
 ### Below you will find the following sections:
 ###      Technologies Used
 ###      Source System
+###      DAG
 ###      Ingestion
 ###            Extraction
 ###            Validation Test
@@ -29,6 +30,10 @@
    ###  Amazon Web Services
    ###     S3 
    ###     RDS
+
+## DAG
+![image](https://github.com/Patrick-Bacza/sp500-stockPrice-pipeline/assets/120348192/b71961c3-1042-43b5-ba68-4b246fc70639)
+
 
 
 ## Source System 
@@ -66,7 +71,7 @@
 
 ## Orchestration Metrics 
   ### Pipeline Performance
-  ### I am currently working on dashboard that shows different metrics for the whole pipeline. I would like to see the success rate and the completion time of the pipeline over time. This way I can see if it remains consistent or starts taking longer and longer to complete
+  ### I am currently working on a dashboard that shows different metrics for the whole pipeline. I would like to see the success rate and the completion time of the pipeline over time. This way I can see if it remains consistent or starts taking longer and longer to complete
   ### Validation Performance
   ### I am also creating metrics to see how well the extraction performs. I want to see how the validation test does over time in order to know if the extraction script starts getting worse. That way I will know to investigate and fix any issues that may arise. 
 ## Limitations
