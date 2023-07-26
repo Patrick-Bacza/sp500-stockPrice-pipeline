@@ -41,7 +41,8 @@ class stockPrices(scrapy.Spider):
     def parse(self, response):
        
         ticker = response.css('div#quote-header-info fin-streamer[data-field="regularMarketPrice"]::attr(data-symbol)').get()
-        openPrice = response.css('#quote-header  td[data-test="OPEN-value"]::text').get().replace(',' ,'')
+        openPrice = response.css('#quote-header  td[data-test="OPEN-value"]::text').get()
+        openPrice = openPrice.replace(',' ,'')
         closePrice =  response.css('div#quote-header-info fin-streamer[data-field="regularMarketPrice"]::text').get().replace(',' ,'')
         volume = response.css('#quote-header [data-field="regularMarketVolume"]::text').get().replace(',' ,'')
         previousClose = response.css('#quote-header  td[data-test="PREV_CLOSE-value"]::text').get().replace(',' ,'')
